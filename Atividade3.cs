@@ -1,6 +1,6 @@
 /*Ref. (10 pontos)
 3 - Escreva um programa que receba três números inteiros e mostre eles em ordem crescente.Nome:*/
-public static class atividade9
+public static class atividade3
 {
     public static void Executar()
     {
@@ -53,11 +53,11 @@ public static class atividade9
             }
         }
 
-        if ((n3 > n1)&&(n3 > n2))
+        if ((n3 > n1) && (n3 > n2))
         {
             maior = n3;
 
-            if(n1 > n2)
+            if (n1 > n2)
             {
                 intermediario = n1;
                 menor = n2;
@@ -69,7 +69,7 @@ public static class atividade9
             }
         }
 
-        Console.WriteLine($"-{menor}, {intermediario}, {maior}");
+        Console.WriteLine($"{menor}, {intermediario}, {maior}");
 
 
 

@@ -9,24 +9,24 @@ Nome:
 public static class Atividade1
 {
     public static void Executar()
-{ 
-    double pi = 3.14159;
-    double raio = 10;
-    double altura = 2;
+    {
+        double pi = 3.14159;
+        double raio = 10;
+        double altura = 2;
 
-    Console.WriteLine();
+        Console.WriteLine();
 
-    Console.WriteLine("Digite o valor do raio");
-raio = double.Parse(Console.ReadLine()!);
+        Console.WriteLine("Digite o valor do raio");
+        raio = double.Parse(Console.ReadLine()!);
 
-Console.WriteLine();
+        Console.WriteLine();
 
-Console.WriteLine("Digite o valor da altura");
-altura = double.Parse(Console.ReadLine()!);
+        Console.WriteLine("Digite o valor da altura");
+        altura = double.Parse(Console.ReadLine()!);
 
-double total = pi * (raio * raio) * altura; 
-Console.WriteLine(total);
+        double total = pi * (raio * raio) * altura;
+        Console.WriteLine($"0 volume da lata é: {altura}");
 
-}
+    }
 
 }
