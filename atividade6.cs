@@ -24,36 +24,16 @@ public static class versãoDa03
             //Classificação por angulos 
             if (A1 == 90 || A2 == 90 || A3 == 90) ;
             {
-                Console.Write("reiangulo retangulo");
+                Console.Write("retangulo retangulo");
             }
             if (A1 > 90 || A2 > 90 || A3 > 90) ;
             {
-                Console.Write("reiangulo obtusangulo");
+                Console.Write("retangulo obtusangulo");
             }
         }
         {
             Console.Write("não forma um triangulo soma diferente de 180°)");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
