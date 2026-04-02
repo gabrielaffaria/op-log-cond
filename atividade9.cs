@@ -4,7 +4,7 @@ public static class atividade9
 {
     public static void Executar()
     {
-        static void main()
+        static void master()
         {
             Console.Write("Digite um número:");
 
